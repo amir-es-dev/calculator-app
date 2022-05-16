@@ -1,0 +1,70 @@
+.container {
+  width: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 2px solid #141313;
+}
+
+.buttonsBox {
+  display: grid;
+  grid-template: repeat(5, 50px) / repeat(4, 65px);
+  background-color: #141313;
+  gap: 2px;
+}
+
+.buttonsBox div {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: #868685;
+  cursor: pointer;
+  padding-top: 0.3rem;
+  border-radius: 2px;
+  color: white;
+}
+
+.buttonsBox div:last-of-type {
+  grid-column: 3/5;
+}
+
+.buttonsBox div:hover {
+  background-color: #646464;
+}
+
+.greySkin {
+  background-color: #464646 !important;
+  color: #fa4c07 !important;
+}
+
+.greySkin:hover {
+  background-color: #3b3b3b !important;
+}
+.redSkin {
+  background-color: #fa4c07 !important;
+  color: white !important;
+  padding-top: 0.5rem !important;
+}
+
+.redSkin:hover {
+  background-color: #ff6123 !important;
+}
+
+.inputBox {
+  background-color: #141313;
+  padding-bottom: 1rem;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: transparent;
+  text-align: end;
+  color: white;
+}
